@@ -375,4 +375,137 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+
+}
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .parent {
+        height: auto;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .Heading {
+        position: static;
+        left: 0;
+        top: 0;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .skill {
+        position: static;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-top: 10px;
+        left: 0;
+        top: 0;
+    }
+
+    /* HERO SECTION */
+    .image {
+        height: auto;
+        padding: 40px 10px;
+        text-align: center;
+    }
+
+    .myimage {
+        margin-left: 0;
+        margin-top: 30px;
+        height: 180px;
+        width: 180px;
+    }
+
+    .title {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+        height: auto;
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+    .aboutimg {
+        position: static;
+        left: 0;
+        top: 0;
+        margin: 20px auto;
+        display: block;
+        height: 200px;
+        width: 160px;
+    }
+
+    .self {
+        position: static;
+        margin-left: 0;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .para {
+        white-space: normal;
+        font-size: 14px;
+    }
+
+    /* SKILLS SECTION */
+    .section1 {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    .space {
+        margin-top: 40px;
+    }
+
+    /* Frontend skill boxes */
+    .html,
+    .css,
+    .javascript,
+    .bootstrap,
+    .reactjs {
+        position: static;
+        margin: 15px auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: block;
+    }
+
+    /* Backend skill boxes */
+    .java,
+    .springboot,
+    .mysql {
+        position: static;
+        margin: 15px auto;
+        left: 0;
+        bottom: 0;
+        display: block;
+    }
+
+    .backend {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* FOOTER */
+    footer h1 {
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }
